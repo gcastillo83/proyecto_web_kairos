@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/fav-icon kairos.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Kairós</title>
+  </head>
+  <body>
+    <header id="headerMain" class="main__header">
+      <img src="./img/Logo-Kairos.svg" alt="logo empresa" />
+      <nav>
+        <ul class="main__header__nav">
+          <li>
+            <a class="active" href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="./servicios.html">Servicios</a>
+            <ul>
+              <li>
+                <a href="./webs.html">Webs</a>
+              </li>
+              <li>
+                <a href="./apps.html">Apps</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./proyectos.html">Proyectos</a>
+          </li>
+          <li>
+            <a
+              class="main__header__nav-button"
+              href="./contacto.html#formulario"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form action="" id="formulario">
+      <label for="name">Nombre y Apellido</label>
+      <input type="text" name="name" placeholder="colocar nombre completo" />
+      <label for="email">Correo Electronico</label>
+      <input type="email" name="email" />
+      <label for="password">Contraseña</label>
+      <input type="password" name="password" />
+      <label for="message">Mensaje</label>
+      <textarea name="message" cols="40" rows="5"></textarea>
+      <label for="bussines">Pyme</label>
+      <input type="radio" name="bussines" value="Pyme" />
+      <label for="bussines">Empresa Grande</label>
+      <input type="radio" name="bussines" value="Empresa Grande" />
+      <label for="accept">Acepta terminos y condiciones</label>
+      <input type="checkbox" name="accept" value="si" checked />
+      <label for="services">Servicios</label>
+      <select name="services" id="">
+        <option value="web">Web</option>
+        <option value="apps">Apps</option>
+      </select>
+      <input type="submit" value="Enviar Formulario" />
+      <input type="reset" value="Limpiar Formulario" />
+      <input type="button" value="No hace nada" />
+    </form>
+    <section id="footer">
+      <footer id="footer">
+        <h4>Get In Touch</h4>
+        <img src="./img/facebook.svg" alt="facebook" />
+        <img src="./img/instagram.svg" alt="instagram" />
+        <img src="./img/twitter.svg" alt="twitter" />
+        <img src="./img/youtube.svg" alt="YouTube" />
+        <h4>Company info</h4>
+        <p>About Us</p>
+        <p>Carrier</p>
+        <p>We are hiring</p>
+        <p>blog</p>
+        <h4>Features</h4>
+        <p>Business Marketing</p>
+        <p>User Analytic</p>
+        <p>Live Chat</p>
+        <p>Unlimited Support</p>
+        <h4>Resources</h4>
+        <p>IOS & Android</p>
+        <p>Watch a Demo</p>
+        <p>Customers</p>
+        <p>API</p>
+      </footer>
+    </section>
+  </body>
+</html>
